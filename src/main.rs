@@ -14,9 +14,9 @@ fn main() {
     .add_plugins(DefaultPlugins.set(WindowPlugin {
       primary_window: Some(Window {
         title: "Bevy Poly".into(),
-        resolution: (400.0,300.0).into(),
+        resolution: (800.0,600.0).into(),
         present_mode: PresentMode::AutoVsync,
-        resizable: false,
+        // resizable: false,
         ..default()
       }),
       ..default()

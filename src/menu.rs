@@ -40,7 +40,7 @@ fn update(
   println!("running scene 1");
   for mut iter in &mut iter_q {
     if iter.0 == 3 {
-      next_state.set(AppState::Scene2);
+      next_state.set(AppState::Movement);
     } else {
       iter.0 = iter.0 + 1;
     }
